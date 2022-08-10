@@ -15,6 +15,7 @@
       "type": "securestring"
     },
     "aksVersion": {
+      "defaultValue": "1.22.6",
       "type": "string"
     },
     "components_app_insights_name": {
