@@ -8,39 +8,39 @@ inf:
   sa: ttsa
   db:
     products:
-      host: # COSMOS HOST FOR PRODUCTS like https://ttwebbasket-dev.documents.azure.com:443/
-      auth: # COSMOS AUTH KEY
+      host: https://ttcouponsdb4hm3p63cu7kem.mongo.cosmos.azure.com:443/
+      auth: o4EWG7nEb686caQyHAoS9gvS2l214haciEA2igJAbCpZk3PFpnUcGNYGlkBbayzXghJFOkFshLVbGh2mh7NPNg==
     profile:
-      host: # COSMOS HOST FOR PROFILE like https://ttwebbasket-dev.documents.azure.com:443/
-      auth: # COSMOS AUTH KEY
+      host: https://ttcouponsdb4hm3p63cu7kem.mongo.cosmos.azure.com:443/
+      auth: o4EWG7nEb686caQyHAoS9gvS2l214haciEA2igJAbCpZk3PFpnUcGNYGlkBbayzXghJFOkFshLVbGh2mh7NPNg==
     popularproducts:
-      host: # COSMOS HOST FOR POPULAR PRODUCTS like https://ttwebbasket-dev.documents.azure.com:443/
-      auth: # COSMOS AUTH KEY
+      host: https://ttcouponsdb4hm3p63cu7kem.mongo.cosmos.azure.com:443/
+      auth: o4EWG7nEb686caQyHAoS9gvS2l214haciEA2igJAbCpZk3PFpnUcGNYGlkBbayzXghJFOkFshLVbGh2mh7NPNg==
     stock:
-      host: # COSMOS HOST FOR STOCK like https://ttwebbasket-dev.documents.azure.com:443/
-      auth: # COSMOS AUTH KEY
+      host: https://ttcouponsdb4hm3p63cu7kem.mongo.cosmos.azure.com:443/
+      auth: o4EWG7nEb686caQyHAoS9gvS2l214haciEA2igJAbCpZk3PFpnUcGNYGlkBbayzXghJFOkFshLVbGh2mh7NPNg==
     cart:
-      host: # COSMOS HOST FOR THE CART like https://ttwebbasket-dev.documents.azure.com:443/
-      auth: # COSMOS AUTH KEY
+      host: https://ttcouponsdb4hm3p63cu7kem.mongo.cosmos.azure.com:443/
+      auth: o4EWG7nEb686caQyHAoS9gvS2l214haciEA2igJAbCpZk3PFpnUcGNYGlkBbayzXghJFOkFshLVbGh2mh7NPNg==
     rewards:
-      host: # DB HOST LIKE tailwindtradersserver-dev.database.windows.net
+      host: ttcouponsdb4hm3p63cu7kem.mongo.cosmos.azure.com
       port: "1433"
       catalog: rewardsdb
-      user: # ADMIN USERNAME LIKE tailadmin
-      pwd: # ADMIN PWD  
+      user: ttcouponsdb4hm3p63cu7kem
+      pwd: o4EWG7nEb686caQyHAoS9gvS2l214haciEA2igJAbCpZk3PFpnUcGNYGlkBbayzXghJFOkFshLVbGh2mh7NPNg==  
     coupons:
-      user: # COSMOS USER tailwindtraders-coupons-dev
-      pwd: # COSMOS PWD 
-      host: # COSMOS HOST LIKE tailwindtraders-coupons-dev.documents.azure.com
+      user: ttcouponsdb4hm3p63cu7kem
+      pwd: o4EWG7nEb686caQyHAoS9gvS2l214haciEA2igJAbCpZk3PFpnUcGNYGlkBbayzXghJFOkFshLVbGh2mh7NPNg==
+      host: ttcouponsdb4hm3p63cu7kem.mongo.cosmos.azure.com
       port: "10255"
       dbName: Coupon
-      constr: # COSMOS CONSTR
+      constr: mongodb://ttcouponsdb4hm3p63cu7kem:o4EWG7nEb686caQyHAoS9gvS2l214haciEA2igJAbCpZk3PFpnUcGNYGlkBbayzXghJFOkFshLVbGh2mh7NPNg==@ttcouponsdb4hm3p63cu7kem.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@ttcouponsdb4hm3p63cu7kem@
       collection: CouponCollection
   storage:
-    productimages: https://tailwindtraders.blob.core.windows.net/product-list
-    productdetailimages: https://tailwindtraders.blob.core.windows.net/product-detail
-    couponimage: https://tailwindtraders.blob.core.windows.net/coupon-list
-    profileimages: https://tailwindtraders.blob.core.windows.net/profiles-list
+    productimages: https://ttstorage4hm3p63cu7kem.blob.core.windows.net/product-list
+    productdetailimages: https://ttstorage4hm3p63cu7kem.blob.core.windows.net/product-detail
+    couponimage: https://ttstorage4hm3p63cu7kem.blob.core.windows.net/coupon-list
+    profileimages: https://ttstorage4hm3p63cu7kem.blob.core.windows.net/profiles-list
   appinsights:
     id: ""
   ingress:
